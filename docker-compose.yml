@@ -17,11 +17,22 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
-      MYSQL_DATABASE: MYSQL_DATABASE
+      MYSQL_DATABASE: ot_online
       MYSQL_USER: MYSQL_USER
       MYSQL_PASSWORD: MYSQL_PASSWORD
     ports:
       - "9906:3306"
+  db2:
+    container_name: db2
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
+      MYSQL_DATABASE: trainingonline
+      MYSQL_USER: MYSQL_USER
+      MYSQL_PASSWORD: MYSQL_PASSWORD
+    ports:
+      - "9907:3306"
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:
@@ -31,4 +42,13 @@ services:
       PMA_HOST: db
     depends_on:
       - db
+  phpmyadmin2:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8001:80"
+    restart: always
+    environment:
+      PMA_HOST: db2
+    depends_on:
+      - db2
       
