@@ -17,7 +17,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
-      MYSQL_DATABASE: ot_online
+      MYSQL_DATABASE: ziigzagz
       MYSQL_USER: MYSQL_USER
       MYSQL_PASSWORD: MYSQL_PASSWORD
     ports:
@@ -32,7 +32,7 @@ services:
       MYSQL_USER: MYSQL_USER
       MYSQL_PASSWORD: MYSQL_PASSWORD
     ports:
-      - "9907:3306"
+      - "9907:3307"
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     ports:
@@ -51,4 +51,7 @@ services:
       PMA_HOST: db2
     depends_on:
       - db2
+networks:
+  my-network:
+    driver: bridge
       
