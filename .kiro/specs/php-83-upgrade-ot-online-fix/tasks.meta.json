@@ -1,0 +1,228 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Pre-flight: confirm the target base image is pullable": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748481773
+      },
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748501953
+      },
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748695083
+      }
+    ],
+    "2.1 Edit `php/Dockerfile` FROM line": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748481860
+      },
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748707071
+      },
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748748426
+      }
+    ],
+    "3.1 Rebuild and start the Container_Service": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748481885
+      },
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748760184
+      },
+      {
+        "executionId": "ae47eda2-5fdb-4fa0-ae3e-c0e8553cc14c",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792749519157
+      },
+      {
+        "executionId": "ae47eda2-5fdb-4fa0-ae3e-c0e8553cc14c",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792749536720
+      },
+      {
+        "executionId": "ae47eda2-5fdb-4fa0-ae3e-c0e8553cc14c",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792749878391
+      }
+    ],
+    "4. Checkpoint - runtime parity confirmed": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748481918
+      },
+      {
+        "executionId": "ae47eda2-5fdb-4fa0-ae3e-c0e8553cc14c",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792749902809
+      },
+      {
+        "executionId": "ae47eda2-5fdb-4fa0-ae3e-c0e8553cc14c",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792749908995
+      }
+    ],
+    "5.1 Record the actual CI3 version and entry path from the container": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748481944
+      },
+      {
+        "executionId": "ae47eda2-5fdb-4fa0-ae3e-c0e8553cc14c",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792749921911
+      },
+      {
+        "executionId": "73e52919-9ea3-45c8-9070-174cd8a019b5",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792750213138
+      },
+      {
+        "executionId": "73e52919-9ea3-45c8-9070-174cd8a019b5",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792752109846
+      }
+    ],
+    "6.1 Patch removed `each()` calls": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748482007
+      },
+      {
+        "executionId": "73e52919-9ea3-45c8-9070-174cd8a019b5",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792752131957
+      },
+      {
+        "executionId": "73e52919-9ea3-45c8-9070-174cd8a019b5",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792754321007
+      }
+    ],
+    "6.2 Patch dynamic property creation deprecations": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748482028
+      },
+      {
+        "executionId": "73e52919-9ea3-45c8-9070-174cd8a019b5",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792754326123
+      },
+      {
+        "executionId": "e977f2d6-c4c5-46a9-af9f-619ec6eddfcf",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792800412922
+      },
+      {
+        "executionId": "e977f2d6-c4c5-46a9-af9f-619ec6eddfcf",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792810293199
+      }
+    ],
+    "6.3 Patch null/stricter-type handling in string functions": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748482047
+      },
+      {
+        "executionId": "e977f2d6-c4c5-46a9-af9f-619ec6eddfcf",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792810299351
+      },
+      {
+        "executionId": "e977f2d6-c4c5-46a9-af9f-619ec6eddfcf",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792811046301
+      }
+    ],
+    "6.4 Patch missing `ReturnTypeWillChange` attributes": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748482064
+      },
+      {
+        "executionId": "e977f2d6-c4c5-46a9-af9f-619ec6eddfcf",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792811052595
+      },
+      {
+        "executionId": "1279e030-9ca8-482b-9940-587575852ed8",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792811306367
+      },
+      {
+        "executionId": "1279e030-9ca8-482b-9940-587575852ed8",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792812273464
+      }
+    ],
+    "8. Final checkpoint - ensure the app loads cleanly": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748482082
+      },
+      {
+        "executionId": "1279e030-9ca8-482b-9940-587575852ed8",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792812289062
+      },
+      {
+        "executionId": "1279e030-9ca8-482b-9940-587575852ed8",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792813439254
+      }
+    ],
+    "2. Change the Dockerfile base image to the production patch version": [
+      {
+        "executionId": "d1274085-a8d2-4e6a-8526-fd58cd70255a",
+        "chatSessionId": "sess_773e6091-9998-4fc7-b6bf-25c4b624c6bf",
+        "timestamp": 1792748748450
+      }
+    ],
+    "3. Rebuild the container and verify the runtime": [
+      {
+        "executionId": "ae47eda2-5fdb-4fa0-ae3e-c0e8553cc14c",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792749878455
+      }
+    ],
+    "5. Confirm the running CI3 source before patching": [
+      {
+        "executionId": "73e52919-9ea3-45c8-9070-174cd8a019b5",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792752109872
+      }
+    ],
+    "6. Iterative CI3 compatibility patch loop (repeat until no Fatal_PHP_Error)": [
+      {
+        "executionId": "1279e030-9ca8-482b-9940-587575852ed8",
+        "chatSessionId": "sess_01ac76e0-23eb-4b50-bfea-6e085888e853",
+        "timestamp": 1792812273517
+      }
+    ]
+  }
+}
